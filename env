@@ -1,0 +1,6 @@
+POSTGRES_DB=bankdb
+POSTGRES_USER=pguser
+POSTGRES_PASSWORD=pgpassword
+
+
+

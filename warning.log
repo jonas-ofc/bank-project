@@ -1,0 +1,2424 @@
+Internal Server Error: /search_customers
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/search_customers/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /search_customers
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/search_customers/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /sitemap.xml
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /api/islogged
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Internal Server Error: /search_customers
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/search_customers/?search=F (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /search_customers
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/search_customers/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /search_customers
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/search_customers/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /search_customers
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/search_customers/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /search_customers
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/search_customers/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /search_customers
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/search_customers/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /search_customers
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/search_customers/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /search_customers
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/search_customers/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /search_customers
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/search_customers/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /search_customers
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost/search_customers/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Forbidden (CSRF token missing.): /search_customers/
+Forbidden (CSRF token missing.): /search_customers/
+Forbidden (CSRF token missing.): /search_customers/
+Forbidden (CSRF token missing.): /search_customers/
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 135, in search_customers
+    customers = Customer.search(search_term)
+AttributeError: type object 'Customer' has no attribute 'search'
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 135, in search_customers
+    customers = Customer.search(search_term)
+AttributeError: type object 'Customer' has no attribute 'search'
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 135, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 24, in search
+    Q(user__username__contains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 135, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 24, in search
+    return cls.objects.filter(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1388, in build_filter
+    return self._add_q(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'personal_id' into field. Choices are: account, accountrequest, loanrequest, phone, rank, rank_id, user, user_id
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'bank'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 142, in search_customers
+    return render(request, 'bank_app/partials/search_customer_results.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'bank' is not a registered namespace
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'bank'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 142, in search_customers
+    return render(request, 'bank_app/partials/search_customer_results.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'bank' is not a registered namespace
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'bank'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 142, in search_customers
+    return render(request, 'bank_app/partials/search_customer_results.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'bank' is not a registered namespace
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'bank'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 142, in search_customers
+    return render(request, 'bank_app/partials/search_customer_results.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'bank' is not a registered namespace
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'bank'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 142, in search_customers
+    return render(request, 'bank_app/partials/search_customer_results.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'bank' is not a registered namespace
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'bank'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 142, in search_customers
+    return render(request, 'bank_app/partials/search_customer_results.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'bank' is not a registered namespace
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'bank'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 142, in search_customers
+    return render(request, 'bank_app/partials/search_customer_results.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'bank' is not a registered namespace
+Internal Server Error: /customer_overview/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'bank'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 126, in customer_overview
+    return render(request, 'bank_app/customer_overview.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'bank' is not a registered namespace
+Internal Server Error: /customer_overview/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'bank'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 126, in customer_overview
+    return render(request, 'bank_app/customer_overview.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'bank' is not a registered namespace
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'bank'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 142, in search_customers
+    return render(request, 'bank_app/partials/search_customer_results.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'bank' is not a registered namespace
+Not Found: /auth/login
+Not Found: /auth/login
+Not Found: /auth/login
+Not Found: /auth/login
+Not Found: /auth/login
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'bank'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 142, in search_customers
+    return render(request, 'bank_app/partials/search_customer_results.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'bank' is not a registered namespace
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'bank'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 144, in search_customers
+    return render(request, 'bank_app/partials/search_customer_results.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'bank' is not a registered namespace
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'bank'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 144, in search_customers
+    return render(request, 'bank_app/partials/search_customer_results.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'bank' is not a registered namespace
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'bank'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 144, in search_customers
+    return render(request, 'bank_app/partials/search_customer_results.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'bank' is not a registered namespace
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'bank'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 144, in search_customers
+    return render(request, 'bank_app/partials/search_customer_results.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'bank' is not a registered namespace
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 144, in search_customers
+    return render(request, 'bank_app/partials/search_customer_results.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'staff_customer_details' not found. 'staff_customer_details' is not a valid view function or pattern name.
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 144, in search_customers
+    return render(request, 'bank_app/partials/search_customer_results.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'staff_customer_details' not found. 'staff_customer_details' is not a valid view function or pattern name.
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /api/islogged
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /customer_overview/{$ url 'bank_app:search_customers' $}
+Not Found: /customer_overview/{$ url 'bank_app:search_customers' $}
+Not Found: /customer_overview/{$ url 'bank_app:search_customers' $}
+Not Found: /customer_overview/{$ url 'bank_app:search_customers' $}
+Not Found: /favicon.ico
+Not Found: /customer_overview/{$ url 'bank_app:search_customers' $}
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 144, in search_customers
+    account_requests = AccountRequest.objects.filter(customer=customer)
+UnboundLocalError: local variable 'customer' referenced before assignment
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 144, in search_customers
+    account_requests = AccountRequest.objects.filter(customer=customer)
+UnboundLocalError: local variable 'customer' referenced before assignment
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 144, in search_customers
+    account_requests = AccountRequest.objects.filter(customer=customer)
+UnboundLocalError: local variable 'customer' referenced before assignment
+Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/site-packages/django/http/request.py", line 152, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '139.144.180.226'. You may need to add '139.144.180.226' to ALLOWED_HOSTS.
+Bad Request: /
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 137, in search_customers
+    print(f'customers: {customers}')
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 370, in __repr__
+    data = list(self[: REPR_OUTPUT_SIZE + 1])
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 394, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1385, in execute_sql
+    sql, params = self.as_sql()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 593, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 71, in pre_sql_setup
+    self.setup_query()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 62, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 278, in get_select
+    related_klass_infos = self.get_related_selections(select)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1193, in get_related_selections
+    raise FieldError(
+django.core.exceptions.FieldError: Invalid field name(s) given in select_related: 'account'. Choices are: user, rank
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 137, in search_customers
+    print(f'customers: {customers}')
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 370, in __repr__
+    data = list(self[: REPR_OUTPUT_SIZE + 1])
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 394, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1385, in execute_sql
+    sql, params = self.as_sql()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 593, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 71, in pre_sql_setup
+    self.setup_query()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 62, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 278, in get_select
+    related_klass_infos = self.get_related_selections(select)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1193, in get_related_selections
+    raise FieldError(
+django.core.exceptions.FieldError: Invalid field name(s) given in select_related: 'account'. Choices are: user, rank
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 137, in search_customers
+    print(f'customers: {customers}')
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 370, in __repr__
+    data = list(self[: REPR_OUTPUT_SIZE + 1])
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 394, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1385, in execute_sql
+    sql, params = self.as_sql()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 593, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 71, in pre_sql_setup
+    self.setup_query()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 62, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select()
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 278, in get_select
+    related_klass_infos = self.get_related_selections(select)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1193, in get_related_selections
+    raise FieldError(
+django.core.exceptions.FieldError: Invalid field name(s) given in select_related: 'account'. Choices are: user, rank
+Not Found: /favicon.ico
+Internal Server Error: /admin-dashboard
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 36, in admin_page
+    return render(request, 'bank_app/admin_page.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'customer_overview' not found. 'customer_overview' is not a valid view function or pattern name.
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 242, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 242, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 242, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 242, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 242, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 242, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 242, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 242, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 242, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 242, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 242, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 242, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 242, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 242, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 242, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'search'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 238, in search_customers
+    search_term = request.POST['search']
+  File "/usr/local/lib/python3.10/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'search'
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Not Found: /favicon.ico
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Not Found: /favicon.ico
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Not Found: /favicon.ico
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Not Found: /favicon.ico
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Not Found: /favicon.ico
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Not Found: /favicon.ico
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 239, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Not Found: /favicon.ico
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 256, in search_customers
+    rendered = render_to_string('bank_app/partials/search_customer_results.html', context)
+NameError: name 'context' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 256, in search_customers
+    rendered = render_to_string('bank_app/partials/search_customer_results.html', context)
+NameError: name 'context' is not defined
+Not Found: /favicon.ico
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 241, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 241, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 245, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /search_customers/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 245, in search_customers
+    customers = Customer.search(search_term)
+  File "/app/bank_app/models.py", line 49, in search
+    Q(user__username__icontains=search_term)   |
+NameError: name 'Q' is not defined
+Internal Server Error: /customer_overview/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+TypeError: 'Customer' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 233, in customer_overview
+    return render(request, 'bank_app/customer_overview.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 208, in render
+    return template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 177, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/app/bank_app/models.py", line 46, in account_count
+    return self.accounts.count()
+  File "/app/bank_app/models.py", line 42, in accounts
+    return Account.objects.filter(user=self.user)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/usr/local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: approvedaccountrequests, approvedloanrequests, customer, customer_id, id, is_loan, ledger, title
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /customer_overview/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+TypeError: 'Customer' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/app/bank_app/views.py", line 233, in customer_overview
+    return render(request, 'bank_app/customer_overview.html', context)
+  File "/usr/local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/loader_tags.py", line 208, in render
+    return template.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 177, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "/usr/local/lib/python3.10/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/app/bank_app/models.py", line 49, in loan_count
+    return self.loans.filter(is_loan=True).count()
+AttributeError: 'Customer' object has no attribute 'loans'

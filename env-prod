@@ -1,0 +1,4 @@
+RTE=prod
+POSTGRES_USER=pguser
+POSTGRES_PASSWORD=pgpassword
+POSTGRES_DB=bankdb

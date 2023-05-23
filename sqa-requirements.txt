@@ -1,0 +1,4 @@
+pylama
+djlint
+pip-audit
+yamllint
