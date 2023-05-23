@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}<title>Login</title>{% endblock %}
+
+{% block main %}
+
+<h1>Login</h1>
+<hr />
+{% if request.user.is_authenticated %}
+<p>You are already logged in as {{ user.username }}. Log in as another user:</p>
+{% endif %}
+<form method="post" action="{% url 'login' %}">
+    {% csrf_token %}
+    <input type="text" name="username" placeholder="Username">
+    <input type="password" name="password" placeholder="Password">
+    <button>Login</button>
+</form>
+<hr />
+{% if form.errors %}
+<p>Your username and password didn't match. Please try again.</p>
+{% endif %}
+{% endblock %}

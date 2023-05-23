@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="robots" content="noindex, nofollow">
+        <title>KEA Bank</title>
+        <meta name="description" content="Student project Backend with Python and Django elective at KEA Schoold of Design and Technology">
+        <meta name="keywords" content="student, project">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% block title %}
+        {% endblock %}
+        {% load static %}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+        <link rel="stylesheet" href="{% static 'css/general.css' %}" type="text/css">
+    </head>
+    <body hx-ext="multi-swap"
+        hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
+        <header>
+        <nav>
+            {% if request.user.is_authenticated %}
+                {% if request.user.is_staff %}
+                <a href="{% url 'bank_app:admin_page' %}">Dashboard</a><span> &nbsp; &nbsp;</span>
+                <a href="{% url 'bank_app:customer_overview' %}">Customers</a><span> &nbsp; &nbsp;</span>
+                <a href="{% url 'bank_app:add_customer' %}">+ Add a customer</a><span> &nbsp; &nbsp;</span>
+                {% else %}
+                <a href="{% url 'bank_app:customer_dashboard' %}">Dashboard</a><span> &nbsp; &nbsp;</span>
+                <a href="{% url 'bank_app:make_loan_request' %}">+ New Loan</a><span> &nbsp; &nbsp;</span>
+                <a href="{% url 'bank_app:make_account_request' %}">+ New Account</a><span> &nbsp; &nbsp;</span>
+                <a href="{% url 'bank_app:make_transfer' %}">Make Transfer</a><span> &nbsp; &nbsp;</span>
+                {% endif %}
+		        <a class="float-right" href="{% url 'logout' %}"><button>Logout</button></a>
+            {% endif %}
+        </nav>
+        <br>
+        </header>
+
+        {% block main %}
+        {% endblock main %}
+    </body>
+    <script src="https://unpkg.com/htmx.org@1.8.6" integrity="sha384-Bj8qm/6B+71E6FQSySofJOUjA/gq330vEqjFx9LakWybUySyI1IQHwPtbTU7bNwx" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/htmx.org/dist/ext/multi-swap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/hyperscript.org@0.9.8"></script>
+</html>
