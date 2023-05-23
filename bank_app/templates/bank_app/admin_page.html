@@ -1,0 +1,210 @@
+{% extends "base.html" %}
+
+{% block title %}<title>Bank admin</title>{% endblock %}
+
+{% block main %}
+
+<h1>Welcome {{ user }}!</h1>
+
+<h2>Users</h2>
+<ul>
+    {% for customer in customers %}
+        {% if customer != request.user %}
+    <li>{{ customer.full_name }} <select x-ref="select" 
+        name="selected_rank"
+        hx-trigger="change"
+        hx-post="{% url 'bank_app:change_rank' customer.pk %}"
+        hx-indicator="#htmx-indicator"
+        hx-swap="innerHTML"
+        hx-target="this">
+
+        <!-- {% for rank in ranks %}
+        {% if customer.rank == rank %}
+        <option selected value="{{ customer.rank }}">{{ customer.rank }}</option>
+        {% else %}
+        <option value="{{ rank }}">{{ rank }}</option>
+        {% endif %}
+        {% endfor %} -->
+        <option selected value="{{ customer.rank }}">
+            {{ customer.rank }}
+        </option>
+        <option value="Gold">
+            Gold
+        </option>
+        <option value="Silver">
+            Silver
+        </option>
+        <option value="Basic">
+            Basic
+        </option>
+</select>
+</li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+<h2>Loan Requests</h2>
+
+<!-- {% block loan_requests %}-->
+<!--  {% endblock loan_requests %}-->
+
+<ul id="loan_requests">
+
+    {% for loan_request in loan_requests %}
+    {% if loan_request.status == "not reviewed" %}
+    <li id="loan_request_{{ loan_request.id }}">Customer: {{ loan_request.customer.full_name}}
+        id : {{loan_request.id}}
+        <br>
+        {% if loan_request.status == "approved" %}
+        Status: Approved
+        {% endif %}
+        {% if loan_request.status == "declined" %}
+        Status: Declined
+        {% endif %}
+        {% if loan_request.status == "not reviewed" %}
+        status: Not Reviewed
+        {% endif %}
+
+        <br>
+        Amount: {{loan_request.loan_amount}}
+        <br>
+        Date: {{loan_request.created_at}}
+        <br>
+        <div class="button-container">
+            <button hx-target="closest .button-container" hx-swap="innerHTML"
+                _="on htmx:confirm(issueRequest)
+                halt the event
+                call Swal.fire({title: 'Approve loan', text:'Are you sure you want to approve the loan?'})
+                if result.isConfirmed issueRequest()
+                end
+                on htmx:responseError(issueRequest)
+                halt the event
+                call Swal.fire({title: 'Error', text:'There was an error, and the loan could not be approved. Please try again'})"
+                hx-post="{% url 'bank_app:approve_loan_request' loan_request.id %}"
+                hx-trigger="click"
+                value="approved"
+                name="approve_loan_request">
+                Approve
+            </button>
+            <button
+                hx-target="closest .button-container"
+                hx-swap="innerHTML"
+                _="on htmx:confirm(issueRequest)
+                halt the event
+                call Swal.fire({title: 'Decline loan', text:'Are you sure you want to decline the loan?'})
+                if result.isConfirmed issueRequest()
+                end
+                on htmx:responseError(issueRequest)
+                halt the event
+                call Swal.fire({title: 'Error', text:'There was an error, and the loan could not be declined. Please try again'})"
+                hx-delete="{% url 'bank_app:decline_loan_request' loan_request.id %}"
+                name="decline_loan_request"
+                hx-trigger="click"
+                value="declined"
+                >
+                Decline
+            </button>
+        </div>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+<hr>
+
+<h2>Account Requests</h2>
+
+<ul id="account_requests">
+
+    {% for account_request in account_requests %}
+    {% if account_request.status == "not reviewed" %}
+    <li id="account_request_{{ account_request.id }}">Customer: {{ account_request.customer.full_name}}
+        id : {{account_request.id}}
+        <br>
+        {% if account_request.status == "approved" %}
+        Status: Approved
+        {% endif %}
+        {% if account_request.status == "declined" %}
+        Status: Declined
+        {% endif %}
+        {% if account_request.status == "not reviewed" %}
+        status: Not Reviewed
+        {% endif %}
+
+        <br>
+        Amount: {{account_request.account_amount}}
+        <br>
+        Date: {{account_request.created_at}}
+        <br>
+        <div class="button-container">
+            <button hx-target="closest .button-container" hx-swap="innerHTML"
+                _="on htmx:confirm(issueRequest)
+               halt the event
+                call Swal.fire({title: 'Approve account', text:'Are you sure you want to approve the account?'})
+                if result.isConfirmed issueRequest()
+                end
+                on htmx:responseError(issueRequest)
+                halt the event
+                call Swal.fire({title: 'Error', text:'There was an error, and the account could not be approved. Please try again'})"
+                hx-post="{% url 'bank_app:approve_account_request' account_request.id %}" hx-trigger="click"
+                value="approved" name="approve_account_request">
+                Approve
+            </button>
+            <button hx-target="closest .button-container" hx-swap="innerHTML"
+                _="on htmx:confirm(issueRequest)
+                halt the event
+                call Swal.fire({title: 'Decline account', text:'Are you sure you want to decline the account?'})
+                if result.isConfirmed issueRequest()
+                end
+                on htmx:responseError(issueRequest)
+                halt the event
+                call Swal.fire({title: 'Error', text:'There was an error, and the account could not be declined. Please try again'})" hx-trigger="click"
+                hx-delete="{% url 'bank_app:decline_account_request' account_request.id %}" value="declined">
+                Decline
+            </button>
+        </div>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+<hr>
+
+<h2>Approved loans</h2>
+<ul id="approved_loan_requests">
+    {% for approved_loan_request in approved_loan_requests %}
+
+    <li>
+        amount: {{approved_loan_request.loan_request.loan_amount}}
+        title: {{approved_loan_request.account.title}}
+        customer: {{approved_loan_request.account.customer.full_name}}
+        approved by:{{approved_loan_request.approved_by}}
+    </li>
+
+    {% endfor %}
+</ul>
+
+<h2>All Loans</h2>
+<ul>
+    {% for account in accounts %}
+    {% if account.balance < 0 %} <li>customer name:{{account.customer.full_name}}
+        title: {{account.title}}
+        balance: {{account.balance}}
+
+        </li>{% endif %}
+        {% endfor %}
+</ul>
+
+<h2>All Accounts</h2>
+<ul>
+    {% for account in accounts %}
+    {% if account.balance >= 0 %}
+
+    <li>
+        customer name:{{account.customer.full_name}}
+        title: {{account.title}}
+        balance: {{account.balance}}
+    </li>{% endif %}
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}<title>Add new customer</title>{% endblock %}
+
+{% block main %}
+
+<h1>Add a new customer</h1>
+
+{% if error_msg %}
+    <p>{{ error_msg }}</p>
+{% endif %}
+{% if errors %}
+    <p>There were errors in the form:</p>
+    {{ errors}}
+{% endif %}
+
+<form method="post">
+    {% csrf_token %}
+    <fieldset>
+    {{ user_form.as_p }}
+    </fieldset>
+    <fieldset>
+    {{ customer_form}}
+    </fieldset>
+    <input type="submit" value="Add customer">
+</form>
+
+{% endblock %}

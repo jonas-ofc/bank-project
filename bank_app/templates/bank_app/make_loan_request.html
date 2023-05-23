@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block main %}
+  <h1>Make a Loan Request</h1>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <label for="loan_amount">Loan Amount:</label>
+    <input type="number" id="loan_amount" name="loan_amount" required>
+    <div> {{ error }} </div>
+  </form>
+{% endblock %}

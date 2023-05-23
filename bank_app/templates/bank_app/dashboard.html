@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block title %}<title>{{ user.first_name }}'s Dashboard</title>{% endblock %}
+
+{% block main %}
+
+<section >
+  {% if user.is_staff and customer.user != user %}
+  <h1>{{ customer.customer_name }}</h1>
+  {% else %}
+  <h1>Welcome {{ customer.customer_name }}!</h1>
+  {% endif %}
+  <p>Account rank: <strong>{{rank.name}}</strong></p>
+</section>
+<section class="grid-2">
+  <div>
+    <h2>Accounts</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Number</th>
+          <th>Name</th>
+          <th class="align-right">Balance</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for account in accounts %}
+        {% if account.is_loan == False %}
+        <tr>
+          <td>{{ account.id }}</td>
+          <td>{{ account.title }}</td>
+          <td class="align-right">{{ account.balance }} DKK</td>
+          <td class="float-right" ><a href="{% url 'bank_app:account_details' account.id %}">More</a></td>
+        </tr>
+        {% endif %}
+        {% empty %}
+        <p>No accounts</p>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <h2>Loans</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Number</th>
+          <th>Name</th>
+          <th class="float-right">Balance</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for loan in accounts %}
+        {% if loan.is_loan == True %}
+        <tr>
+          <td>{{loan.id }}</td>
+          <td>{{loan.title}}</td>
+          <td class="float-right">{{ loan.balance }} DKK</td>
+        </tr>
+        {% endif %}
+        {% empty %}
+        <p>No loans</p>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+<br>
+<hr>
+<section class="grid-2">
+  <div>
+    <h2>Pending loan requests</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Loan Amount</th>
+          <th>Currency</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for loan_request in loan_requests %}
+        {% if loan_request.status == "not reviewed" %}
+        <tr>
+          <td>{{ loan_request.loan_amount }}</td>
+          <td>DKK</td>
+        </tr>
+        {% endif %}
+        {% empty %}
+        <p>No pending loan requests</p>
+        {% if user.is_staff == False or admin_customer %}
+        <button><a href="{% url 'bank_app:make_loan_request' %}">Apply for a loan</a></button>
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <h2>Pending account requests</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Account name</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for account_request in account_requests %}
+        <tr>
+          <td>{{ account_request.id }}</td>
+        </tr>
+        {% empty %}
+        <p>No pending account requests</p>
+        {% if user.is_staff == False or admin_customer %}
+        <button><a href="{% url 'bank_app:make_account_request' %}">Apply for an account</a></button>
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endblock %}

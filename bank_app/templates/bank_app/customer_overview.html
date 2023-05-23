@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}<title>Customers</title>{% endblock %}
+
+{% block main %}
+
+<h1>Customer overview</h1>
+<div>
+  <input
+      type="search" 
+      name="search" 
+      class="form-control"
+      placeholder="Search Users..." 
+      hx-get="{% url 'bank_app:search_customers' %}" 
+      hx-trigger="keyup changed delay:500ms" 
+      hx-target="#search-results" 
+      >
+</div>
+
+<hr>
+<section>
+    <table>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Rank</th>
+          <th>Accounts</th>
+          <th>Loans</th>
+          <th>Phone</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="search-results">
+      {% include "bank_app/partials/search_customer_results.html" %}
+      </tbody>
+    </table>
+</section>
+
+{% endblock %}	

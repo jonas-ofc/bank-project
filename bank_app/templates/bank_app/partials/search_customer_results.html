@@ -1,0 +1,12 @@
+
+{% for customer in customers %}
+<tr>
+    <td>{{ customer.pk }}</td>
+    <td>{{ customer.full_name }}</td>
+    <td>{{ customer.rank }}</td>
+    <td>{{ customer.account_count}}</td>
+    <td>{{ customer.loan_count }}</td>
+    <td>{{ customer.phone }}</td>
+    <td><a href="{% url 'bank_app:customer_dashboard' customer.pk %}">More</a></td>
+</tr>
+{% endfor %}

@@ -1,0 +1,52 @@
+
+{% extends "admin_page.html" %}
+{% block loan_requests %}
+
+    <ul id="loan_requests">  {% for loan_request in loan_requests %}
+        {% if loan_request.status == "not reviewed" %}
+    <li>Customer: {{ loan_request.customer.full_name}}
+            id : {{loan_request.id}}
+            <br>
+            {% if loan_request.status == "approved" %}
+            Status: Approved
+            {% endif %}
+            {% if loan_request.status == "declined" %}
+            Status: Declined
+            {% endif %}
+            {% if loan_request.status == "not reviewed" %}
+            status: Not Reviewed
+            {% endif %}
+            <br>
+        Amount: {{loan_request.loan_amount}}
+        <br>
+        Date: {{loan_request.created_at}}
+        <br>
+
+        <button
+                hx-swap="outerHTML"
+                hx-target="#loan_requests"
+                hx-confirm="Are you sure you want to approve this loan?"
+            hx-patch="{% url 'bank_app:approve_loan_request' loan_request.id %}"
+            hx-trigger="click"
+            value="approved"
+            name="approve_loan_request">
+            Approve
+        </button>
+        <button
+                hx-swap="delete"
+                hx-target="#loan_requests"
+                hx-confirm="Are you sure you want to delete this loan request?"
+            name="decline_loan_request"
+            hx-trigger="click"
+            hx-delete="{% url 'bank_app:decline_loan_request' loan_request.id %}"
+            value="declined"
+            >
+            Decline
+        </button>
+        <button onClick="window.location.href='/review_loan_request/{{loan_request.customer.pk}}';">Review</button>
+       </li>
+       {% endif %}
+        {% endfor %}
+    </ul>
+
+{% endblock %}

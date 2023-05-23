@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<h1>Account details</h1>
+<h2>{{account.title}}</h2>
+{% if user.is_staff and customer.user != user %}
+<p>Belongs to: <strong>{{ customer.customer_name }}</strong></p>
+{% endif %}
+<p>Account number: <strong>{{account.id}}</strong></p>
+<p>Balance: <strong>{{account.balance}}</strong></p>
+<table>
+    <thead>
+        <tr>
+          <th>Amount</th>
+          <th>New balance</th>
+          <th>Message</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+    <tbody>
+    {% for i in account.movements %}
+    <tr>
+        <td>
+          {% if i.amount > 0 %}
+          +{{i.amount}}
+          {% else %}
+          {{i.amount}}
+          {% endif %}
+        </td>
+        <td>
+          {{i.balance_at_time}}
+        </td>   
+        <td>{{i.message}}</td>
+        <td>{{i.transaction.datetime}}</td>  
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

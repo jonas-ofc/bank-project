@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block main %}
+  <h1>Transfer money</h1>
+  <blockquote> Here you can transfer money between your accounts, as well as pay off any outstanding loans you may have.</blockquote>
+
+  <form method="post">
+      {% csrf_token %}
+      <fieldset>
+          <legend>Debit Information:</legend>
+          {{ form.amount.label_tag }}{{ form.amount }}
+          {% for error in form.amount.errors %}
+              <span class="error">{{ error }}</span>
+          {% endfor %}
+          <br>
+          {{ form.debit_account.label_tag }} {{ form.debit_account }}
+          {% for error in form.debit_account.errors %}
+              <span class="error">{{ error }}</span>
+          {% endfor %}
+          <br>
+          {{ form.debit_text.label_tag }} {{ form.debit_text }}
+          {% for error in form.debit_text.errors %}
+              <span class="error">{{ error }}</span>
+          {% endfor %}
+          <br>
+      </fieldset>
+      <br>
+        <fieldset>
+          <legend>Credit Information:</legend>
+          {{ form.credit_account.label_tag }} {{ form.credit_account }}
+          {% for error in form.credit_account.errors %}
+              <span class="error">{{ error }}</span>
+          {% endfor %}
+          <br>
+          {{ form.credit_text.label_tag }} {{ form.credit_text }}
+          {% for error in form.credit_text.errors %}
+              <span class="error">{{ error }}</span>
+          {% endfor %}
+          <br>
+        </fieldset>
+      <br>
+      {% for error in form.non_field_errors %}
+          <li>{{ error }}</li>
+      {% endfor %}
+      <input class="float-right" type="submit" value="Submit">
+  </form>
+{% endblock %}

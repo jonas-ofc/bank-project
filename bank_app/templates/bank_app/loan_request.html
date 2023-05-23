@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <h2>List of all loans:</h2>
+    <ul>
+    {% for loan in loans %}
+        <li>Loan amount: {{ loan.loan_amount }}</li>
+    {% empty %}
+        <li>No loans found.</li>
+    {% endfor %}
+    </ul>
+
+    <h2>List of approved loans:</h2>
+    <ul>
+    {% for loan in approved_loans %}
+        <li>Loan amount: {{ loan.loan_amount }}</li>
+    {% empty %}
+        <li>No approved loans found.</li>
+    {% endfor %}
+    </ul>
+{% endblock %}
